@@ -1,0 +1,156 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; 
+}
+
+header {
+    background-color: #e9c78d; 
+    color: white; 
+    padding: 10px 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-icon {
+    width: 30px;
+    height: 30px;
+  
+}
+
+
+details.menu-container summary {
+    list-style: none; 
+   
+}
+
+
+
+.menu-list {
+    display: none; 
+    position: absolute;
+    top: 60px; 
+    left: 0;
+    background-color: #f7e7ce; 
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    z-index: 1000;
+}
+
+.menu-list li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.menu-list li:last-child {
+    border-bottom: none;
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.menu-list li:hover {
+    background-color: #edd5ab; 
+}
+
+
+.menu-container:hover .menu-list {
+    display: block; 
+}
+
+.site-title {
+    color: white; 
+    font-size: 28.8px; 
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.monimage {
+    width: 100px;
+    height: 100px;
+}
+
+main {
+    background-color: #f7e7ce; 
+    padding: 20px;
+}
+
+footer {
+    background-color:#e9c78d; 
+    color: #dfc7a2; 
+    text-align: center;
+    padding: 10px;
+    font-size: 14.4px; 
+}
+
+.experience-title-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #f7e7ce; 
+    margin-bottom: 20px;
+}
+
+.experience-title-section h1 {
+    font-size: 36px;
+    color: #a47e3c; 
+}
+
+.experience-title-section p {
+    font-size: 18px;
+    color: #333;
+}
+
+
+.experience-section {
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.experience-section h2 {
+    font-size: 28px;
+    color: #a47e3c; 
+    margin-bottom: 10px;
+}
+
+.experience-item {
+    margin-bottom: 20px;
+}
+
+.experience-details h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.experience-details p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.experience-tasks {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+.experience-tasks li {
+    margin-bottom: 5px;
+}

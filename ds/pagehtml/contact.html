@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz HTML, CSS et JavaScript</title>
+    <link rel="stylesheet" href="C:/Users/sabrine/Desktop/ds/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <details class="menu-container">
+                <summary>
+                    <img src="C:/Users/sabrine/Downloads/menu.png" alt="Menu" class="menu-icon">
+                </summary>
+                <ul class="menu-list">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="parcours.html">Parcours</a></li>
+                    <li><a href="competences.html">Compétences</a></li>
+                    <li><a href="stages.html">Stages</a></li>
+                    
+                    <li><a href="matieres.html">Matières</a></li>
+                    <li><a href="passions.html">Passions</a></li>
+                    <li><a href="quizz.html">Quizz</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                 
+                </ul>
+            </details>
+            <h1 class="site-title">Mon curriculum vitae</h1>
+            <img src="C:/Users/sabrine/Downloads/cv.jpg" alt="Mon image" class="monimage">
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <fieldset>
+                <legend> contact par mail</legend>
+            <form id="contactForm">
+                
+                <label for="name">Nom :</label><br>
+                <input type="text" id="name" name="name" placeholder="Votre nom" required><br><br>
+
+                
+                <label for="email">Email :</label><br>
+                <input type="email" id="email" name="email" value="sabrine.maalej2001@gmail.com" readonly>
+                <br><br>
+
+              
+                <label for="subject">Sujet :</label><br>
+                <input type="text" id="subject" name="subject" placeholder="Sujet de votre message" required><br><br>
+
+             
+                <label for="message">Message :</label><br>
+                <textarea id="message" name="message" rows="5" placeholder="Votre message ici..." required></textarea><br><br>
+
+              
+                <button type="submit" style="background-color: #e9c78d;">Envoyer</button>
+
+            </form>
+            </fieldset>
+        </section>
+    </main>
+
+    <footer>
+        
+    </footer>
+
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+  <script src="C:/Users/sabrine/Desktop/ds/script.js"></script>
+</body>
+</html>

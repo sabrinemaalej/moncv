@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz HTML, CSS et JavaScript</title>
+    <link rel="stylesheet" href="C:/Users/sabrine/Desktop/ds/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <details class="menu-container">
+                <summary>
+                    <img src="C:/Users/sabrine/Downloads/menu.png" alt="Menu" class="menu-icon">
+                </summary>
+                <ul class="menu-list">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="parcours.html">Parcours</a></li>
+                    <li><a href="competences.html">Compétences</a></li>
+                    <li><a href="stages.html">Stages</a></li>
+                    
+                    <li><a href="matieres.html">Matières</a></li>
+                    <li><a href="passions.html">Passions</a></li>
+                    <li><a href="quizz.html">Quizz</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                 
+                </ul>
+            </details>
+            <h1 class="site-title">Mon curriculum vitae</h1>
+            <img src="C:/Users/sabrine/Downloads/cv.jpg" alt="Mon image" class="monimage">
+        </div>
+    </header>
+
+    <main>
+    
+            <h1>Quiz : HTML, CSS et JavaScript</h1>
+         
+      
+
+        <form id="quizForm">
+            
+            <fieldset>
+                <legend>1. Que signifie DOM en JavaScript ?</legend>
+                <input type="radio" name="q1" value="c" id="q1a">
+                <label for="q1a">Document Object Model</label><br>
+                <input type="radio" name="q1" value="b" id="q1b">
+                <label for="q1b">Data Object Model</label><br>
+                <input type="radio" name="q1" value="a" id="q1c">
+                <label for="q1c">Document Online Model</label>
+            </fieldset>
+
+           
+            <fieldset>
+                <legend>2. Quelle est la syntaxe correcte pour afficher un message dans une fenêtre pop-up ?</legend>
+                <input type="radio" name="q2" value="a" id="q2a">
+                <label for="q2a">console.log("message")</label><br>
+                <input type="radio" name="q2" value="b" id="q2b">
+                <label for="q2b">alert("message")</label><br>
+                <input type="radio" name="q2" value="c" id="q2c">
+                <label for="q2c">prompt("message")</label>
+            </fieldset>
+
+           
+            <fieldset>
+                <legend>3. Comment appelle-t-on une balise dans le DOM si elle a une classe "container" ?</legend>
+                <input type="radio" name="q3" value="a" id="q3a">
+                <label for="q3a">document.querySelector('.container')</label><br>
+                <input type="radio" name="q3" value="b" id="q3b">
+                <label for="q3b">document.getClass('container')</label><br>
+                <input type="radio" name="q3" value="c" id="q3c">
+                <label for="q3c">document.getElement('.container')</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>4. Comment centre-t-on un texte avec CSS ?</legend>
+                <input type="radio" name="q4" value="a" id="q4a">
+                <label for="q4a">text-align: center;</label><br>
+                <input type="radio" name="q4" value="b" id="q4b">
+                <label for="q4b">align-text: center;</label><br>
+                <input type="radio" name="q4" value="c" id="q4c">
+                <label for="q4c">center: text;</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>5. Comment afficher une image en plein écran sur une page ?</legend>
+                <input type="radio" name="q5" value="a" id="q5a">
+                <label for="q5a">width: 100%; height: auto;</label><br>
+                <input type="radio" name="q5" value="b" id="q5b">
+                <label for="q5b">width: 100vw; height: 100vh;</label><br>
+                <input type="radio" name="q5" value="c" id="q5c">
+                <label for="q5c">max-width: 100%;</label>
+            </fieldset>
+
+            
+            <fieldset>
+                <legend>6. Quelle est la syntaxe correcte pour déclarer un tableau en JavaScript ?</legend>
+                <input type="radio" name="q6" value="a" id="q6a">
+                <label for="q6a">var tab = [1, 2, 3];</label><br>
+                <input type="radio" name="q6" value="b" id="q6b">
+                <label for="q6b">var tab = {1, 2, 3};</label><br>
+                <input type="radio" name="q6" value="c" id="q6c">
+                <label for="q6c">var tab = (1, 2, 3);</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>7. Quelle méthode JavaScript permet de convertir une chaîne de caractères en nombre entier ?</legend>
+                <input type="radio" name="q7" value="c" id="q7a">
+                <label for="q7a">parseInt()</label><br>
+                <input type="radio" name="q7" value="b" id="q7b">
+                <label for="q7b">parseFloat()</label><br>
+                <input type="radio" name="q7" value="a" id="q7c">
+                <label for="q7c">toString()</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>8. Quelle méthode JavaScript est utilisée pour convertir une chaîne en nombre décimal ?</legend>
+                <input type="radio" name="q8" value="a" id="q8a">
+                <label for="q8a">parseFloat()</label><br>
+                <input type="radio" name="q8" value="b" id="q8b">
+                <label for="q8b">Number()</label><br>
+                <input type="radio" name="q8" value="c" id="q8c">
+                <label for="q8c">parseInt()</label>
+            </fieldset>
+            <fieldset>
+                <legend>9. Quelle est la syntaxe correcte pour appliquer une couleur de fond en CSS ?</legend>
+                <input type="radio" name="q9" value="c" id="q9a">
+                <label for="q9a">background-color: red;</label><br>
+                <input type="radio" name="q9" value="b" id="q9b">
+                <label for="q9b">color-background: red;</label><br>
+                <input type="radio" name="q9" value="a" id="q9c">
+                <label for="q9c">bg-color: red;</label>
+            </fieldset>
+            <fieldset>
+                <legend>10. Comment sélectionner en CSS tous les liens <a> ayant un attribut title avec la valeur exacte « Cliquez ici » ?</legend>
+                <input type="radio" name="q10" value="d" id="q9a">
+                <label for="q9a">a[title="Cliquez ici"] { … }</label><br>
+                <input type="radio" name="q10" value="b" id="q9b">
+                <label for="q9b">a.title="Cliquez ici" { … }</label><br>
+                <input type="radio" name="q10" value="a" id="q9c">
+                <label for="q10c">a:has(title="Cliquez ici") { … }</label>
+            </fieldset>
+
+            <button type="button" onclick="checkAnswers()" style="background-color: #e9c78d;">Valider</button>
+        </form>
+    </main>
+
+    <script src="C:/Users/sabrine/Desktop/ds/script.js"></script>
+</body>
+<footer></footer>
+</html>
